@@ -165,7 +165,7 @@
     var botCreatorIDs = [];
 
     var basicBot = {
-        version: "2.1.3",
+        version: "2.0.1",
         status: false,
         name: "SagaWorlds BOT",
         loggedInID: null,
