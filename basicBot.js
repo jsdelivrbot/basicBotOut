@@ -167,7 +167,7 @@
     var basicBot = {
         version: "2.1.3",
         status: false,
-        name: "basicBot",
+        name: "SagaWorlds BOT",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
@@ -176,7 +176,7 @@
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         settings: {
-            botName: "basicBot",
+            botName: "SagaWorlds BOT",
             language: "portuguese",
             chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json",
             maximumAfk: 120,
