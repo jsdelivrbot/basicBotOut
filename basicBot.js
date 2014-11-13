@@ -195,13 +195,11 @@
             usercommandsEnabled: true,
             lockskipPosition: 3,
             lockskipReasons: [
-                ["1", "Som ofensivo ou video com conteudo para maiores de 18 anos. Tente outra. "],
+                ["1", "Musica/video ofensiva ou musica/video com conteudo para maiores de 18 anos. Tente outra. "],
                 ["2", "Já foi tocada recentemente. Tente outra. "],
-                ["3", "Ei! Isso não é uma musica. Tente outra. "],
-                ["4", "Som negado. Tente outra. "],
-                ["sound", "The song you played had bad sound quality or no sound. "],
-                ["nsfw", "The song you contained was NSFW (image or sound). "],
-                ["unavailable", "The song you played was not available for some users. "]
+                ["3", "Ei! Isso não é uma musica. Tente novamente. "],
+                ["4", "Musica negada. Tente outra. "],
+                ["5", "A musica/video está com problemas. Tente outra. "]
             ],
             afkpositionCheck: 15,
             afkRankCheck: "ambassador",
