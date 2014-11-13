@@ -191,7 +191,7 @@
             timeGuard: true,
             maximumSongLength: 10,
             autodisable: true,
-            commandCooldown: 30,
+            commandCooldown: 1,
             usercommandsEnabled: true,
             lockskipPosition: 3,
             lockskipReasons: [
@@ -218,7 +218,7 @@
             youtubeLink: null,
             website: null,
             intervalMessages: [],
-            messageInterval: 1,
+            messageInterval: 5,
             songstats: true,
             commandLiteral: "!",
             blacklists: {
