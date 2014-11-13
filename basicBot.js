@@ -1539,7 +1539,7 @@
                     'lhe dá um biscoito de chocolate. Oh, espere, essas são as passas. Bleck!',
                     'lhe dá uma enorme cookie. Picar dá à você mais cookies. Estranho.',
                     'lhe dá um biscoito da sorte. lê-se "Cuidado com o que esconde, seus numeros da sorte são 1-8-24-69-27."',
-                    'lhe dá um biscoito de Ouro. Você pode \'t comer, porque ele é feito de ouro. Droga.',
+                    'lhe dá um biscoito de Ouro. Você não pode comer porque ele é feito de ouro. Droga.',
                     'lhe dá um biscoito Oreo com um copo de leite!',
                     'lhe dá um biscoito arco-íris feito com amor :heart:',
                     'lhe dá um cookie de idade que foi deixado de fora na chuva, é mofado.',
