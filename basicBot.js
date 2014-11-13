@@ -161,44 +161,44 @@
         return m;
     };
 
-    var botCreator = "Matthew aka. Yemasthui";
+    var botCreator = "Matthew aka. Yemasthui. and Asfargo R.";
     var botCreatorIDs = [];
 
     var basicBot = {
         version: "2.0.1",
         status: false,
-        name: "SagaWorlds BOT",
+        name: "AsfargoR BOT",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
-        cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json",
+        scriptLink: "https://rawgit.com/Asfargo/basicBot/master/basicBot.js",
+        cmdLink: "https://rawgit.com/Asfargo/basicBot/master/commands.md",
+        chatLink: "https://rawgit.com/Asfargo/basicBot/master/lang/pt.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         settings: {
-            botName: "SagaWorlds BOT",
+            botName: "AsfargoR BOT",
             language: "portuguese",
-            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json",
+            chatLink: "https://rawgit.com/Asfargo/basicBot/master/lang/pt.json",
             maximumAfk: 120,
-            afkRemoval: true,
+            afkRemoval: false,
             maximumDc: 60,
             bouncerPlus: true,
             lockdownEnabled: false,
             lockGuard: false,
             maximumLocktime: 10,
-            cycleGuard: true,
+            cycleGuard: false,
             maximumCycletime: 10,
-            timeGuard: true,
+            timeGuard: false,
             maximumSongLength: 10,
             autodisable: true,
             commandCooldown: 2,
             usercommandsEnabled: true,
             lockskipPosition: 3,
             lockskipReasons: [
-                ["theme", "This song does not fit the room theme. "],
-                ["op", "This song is on the OP list. "],
-                ["history", "This song is in the history. "],
-                ["mix", "You played a mix, which is against the rules. "],
+                ["1", "Som ofensivo ou video com conteudo para maiores de 18 anos. Tente outra. "],
+                ["2", "Já foi tocada recentemente. Tente outra. "],
+                ["3", "Ei! Isso não é uma musica. Tente outra. "],
+                ["4", "Som negado. Tente outra. "],
                 ["sound", "The song you played had bad sound quality or no sound. "],
                 ["nsfw", "The song you contained was NSFW (image or sound). "],
                 ["unavailable", "The song you played was not available for some users. "]
@@ -207,8 +207,8 @@
             afkRankCheck: "ambassador",
             motdEnabled: false,
             motdInterval: 5,
-            motd: "Temporary Message of the Day",
-            filterChat: true,
+            motd: "Sem MOTD. Digite \"!motd (Mensagem)\" e coloque uma.",
+            filterChat: false,
             etaRestriction: false,
             welcome: true,
             opLink: null,
@@ -2105,7 +2105,7 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                         var msg = chat.message;
-                        if (msg.length <= cmd.length + 1) return API.sendChat('/me MotD: ' + basicBot.settings.motd);
+                        if (msg.length <= cmd.length + 1) return API.sendChat('/me MOTD: ' + basicBot.settings.motd);
                         var argument = msg.substring(cmd.length + 1);
                         if (!basicBot.settings.motdEnabled) basicBot.settings.motdEnabled = !basicBot.settings.motdEnabled;
                         if (isNaN(argument)) {
@@ -2750,7 +2750,7 @@
 
             voteratioCommand: {
                 command: 'voteratio',
-                rank: 'bouncer',
+                rank: 'user',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
