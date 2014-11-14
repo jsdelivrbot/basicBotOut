@@ -195,11 +195,11 @@
             usercommandsEnabled: true,
             lockskipPosition: 3,
             lockskipReasons: [
-                ["1", "/me Musica/video ofensiva ou musica/video com conteudo para maiores de 18 anos. Tente outra. "],
-                ["2", "/me Esta musica já foi tocada recentemente. Tente outra. "],
-                ["3", "/me Ei! Isso não é uma musica. Tente novamente. "],
-                ["4", "/me Musica negada. Tente outra. "],
-                ["5", "/me A musica/video está com problemas. Tente outra. "]
+                ["1", "Musica/video ofensiva ou musica/video com conteudo para maiores de 18 anos. Tente outra. "],
+                ["2", "Esta musica já foi tocada recentemente. Tente outra. "],
+                ["3", "Ei! Isso não é uma musica. Tente novamente. "],
+                ["4", "Musica negada. Tente outra. "],
+                ["5", "A musica/video está com problemas. Tente outra. "]
             ],
             afkpositionCheck: 15,
             afkRankCheck: "ambassador",
