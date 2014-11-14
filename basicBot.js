@@ -165,7 +165,7 @@
     var botCreatorIDs = [];
 
     var basicBot = {
-        version: "2.0.1",
+        version: "2.0.2",
         status: false,
         name: "AsfargoR BOT",
         loggedInID: null,
@@ -189,17 +189,17 @@
             cycleGuard: false,
             maximumCycletime: 10,
             timeGuard: false,
-            maximumSongLength: 10,
+            maximumSongLength: 6,
             autodisable: true,
-            commandCooldown: 2,
+            commandCooldown: 1,
             usercommandsEnabled: true,
             lockskipPosition: 3,
             lockskipReasons: [
-                ["1", "Musica/video ofensiva ou musica/video com conteudo para maiores de 18 anos. Tente outra. "],
-                ["2", "Já foi tocada recentemente. Tente outra. "],
-                ["3", "Ei! Isso não é uma musica. Tente novamente. "],
-                ["4", "Musica negada. Tente outra. "],
-                ["5", "A musica/video está com problemas. Tente outra. "]
+                ["1", "/me Musica/video ofensiva ou musica/video com conteudo para maiores de 18 anos. Tente outra. "],
+                ["2", "/me Esta musica já foi tocada recentemente. Tente outra. "],
+                ["3", "/me Ei! Isso não é uma musica. Tente novamente. "],
+                ["4", "/me Musica negada. Tente outra. "],
+                ["5", "/me A musica/video está com problemas. Tente outra. "]
             ],
             afkpositionCheck: 15,
             afkRankCheck: "ambassador",
@@ -1757,8 +1757,8 @@
             },
 
             helpCommand: {
-                command: 'help',
-                rank: 'user',
+                command: 'help2',
+                rank: 'mod',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -2727,7 +2727,7 @@
             },
 
             usercommandsCommand: {
-                command: 'usercommands',
+                command: ['usercommands', 'help'],
                 rank: 'manager',
                 type: 'exact',
                 functionality: function (chat, cmd) {
