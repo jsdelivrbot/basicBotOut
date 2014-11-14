@@ -31,7 +31,7 @@
 
 
     "warning1": "/me @%%NAME%%, você esteve inativo por %%TIME%%, responda dentro de 2 minutos ou você será removido da fila de espera.",
-    "warning2": "/me /me @%%NAME%%, você será removido em breve por inatividade se não responder.",
+    "warning2": "/me @%%NAME%%, você será removido em breve por inatividade se não responder.",
     "afkremove": "/me @%%NAME%%, você foi removido por estar inativo por %%TIME%%. Você teve a posição %%POSITION%%. Use o chat pelo menos uma vez em 1 hora se quiser tocar.",
 
 
@@ -93,7 +93,7 @@
     "jointime": "/me [@%%NAMEFROM%%] @%%USERNAME%% esteve na sala por %%TIME%%.",
     "kickrank": "/me [@%%NAME%%] Você não pode kickar alguém do mesmo rank ou superior!",
     "kick": "/me [@%%NAME%%], @%%USERNAME%% você está sendo kickado da comunidade por %%TIME%% minutos.",
-    "kill": "/me Desligando...",
+    "kill": "/me Desligando o BOT...",
     "rouletteleave": "/me @%%NAME%% deixou a roleta!",
     "songlink": "/me [@%%NAME%%] Link para a música atual: %%LINK%%",
     "usedlockskip": "/me [%%NAME%% usou 'lockskip'.]",
@@ -111,7 +111,7 @@
     "muterank": "/me [@%%NAME%%] Você não pode mutar usuários do mesmo nível ou superior.",
     "oplist": "/me Lista OP: %%LINK%%",
     "pong": "/me Pong!",
-    "reload": "/me Reiniciando...",
+    "reload": "/me Reiniciando o BOT...",
     "removenotinwl": "/me [@%%NAME%%] Usuário @%%USERNAME%% não está na fila de espera.",
     "roomrules": "/me Encontre as regras da sala aqui: %%LINK%%",
     "sessionstats": "/me [@%%NAME%%] Total woots: %%WOOTS%%, total mehs: %%MEHS%%, total grabs: %%GRABS%%.",
@@ -128,7 +128,7 @@
     "notmuted": "/me [@%%NAME%%] Usuário mencionado não foi mutado.",
     "unmuterank": "/me [@%%NAME%%] Você não pode desmutar usuários do mesmo rank ou superior.",
     "commandscd": "/me [@%%NAME%%] O tempo de espera de comandos para usuários agora é %%TIME%% segundos.",
-    "voteratio": "/me [@%%NAME%%] @%%USERNAME%% ~ woots: ' + %%WOOT%% + ', mehs: %%MEHS%%, ratio (w/m): %%RATIO%%.",
+    "voteratio": "/me [@%%NAME%%] @%%USERNAME%% ~ Woots: %%WOOT%%. Mehs: %%MEHS%%. Ratio (w/m): %%RATIO%%.",
     "website": "/me Visite nosso site: %%LINK%%",
     "youtube": "/me [%%NAME%%] Inscreva-se no nosso canal: %%LINK%%",
     "songstatistics": "/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%W/%%GRABS%%G/%%MEHS%%M."
