@@ -1516,7 +1516,7 @@
             },
 
             commandsCommand: {
-                command: 'commands',
+                command: ['commands', 'help'],
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -2727,7 +2727,7 @@
             },
 
             usercommandsCommand: {
-                command: ['usercommands', 'help'],
+                command: 'usercommands',
                 rank: 'manager',
                 type: 'exact',
                 functionality: function (chat, cmd) {
