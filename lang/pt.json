@@ -24,7 +24,7 @@
 
 
     "usernotfound": "/me Usuário não encontrado.",
-    "notdisconnected": "/me Desculpe @%%NAMEFROM%% mas @%%NAME%% não tem se desconectado durante meu tempo aqui.",
+    "notdisconnected": "/me Desculpe @%%NAME%% mas @%%USERNAME%% não tem se desconectado durante meu tempo aqui.",
     "noposition": "/me Última posição não reconhecida. A fila de espera precisa ser atualizada pelo menos uma vez para registrar posições.",
     "toolongago": "/me @%%NAME%%'s desconectou-se a muito tempo atrás: %%TIME%%.",
     "valid": "/me @%%NAME%% desconectou-se %%TIME%% atrás e deve ter posição %%POSITION%%.",
