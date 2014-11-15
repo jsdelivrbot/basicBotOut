@@ -1853,7 +1853,7 @@
             },
 
             killCommand: {
-                command: 'kill',
+                command: 'killbot',
                 rank: 'bouncer',
                 type: 'exact',
                 functionality: function (chat, cmd) {
