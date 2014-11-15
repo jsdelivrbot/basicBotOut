@@ -188,7 +188,7 @@
             maximumLocktime: 10,
             cycleGuard: false,
             maximumCycletime: 10,
-            timeGuard: false,
+            timeGuard: true,
             maximumSongLength: 6,
             autodisable: false,
             commandCooldown: 1,
