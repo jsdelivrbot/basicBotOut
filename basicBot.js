@@ -165,12 +165,12 @@
     var botCreatorIDs = [];
 
     var basicBot = {
-        version: "2.0.6",
+        version: "2.0.7",
         status: false,
         name: "AsfargoR BOT",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Asfargo/basicBot/master/basicBot.js",
-        cmdLink: "Os comandos são: !commands / !voteratio @user / !dc / !emoji / !eta / !ping / !link / !jointime @user / !cookie @user",
+        cmdLink: "!commands (ou !help) / !voteratio @user / !dc / !emoji / !eta / !ping / !link / !jointime @user / !cookie @user",
         chatLink: "https://rawgit.com/Asfargo/basicBot/master/lang/pt.json",
         chat: null,
         loadChat: loadChat,
