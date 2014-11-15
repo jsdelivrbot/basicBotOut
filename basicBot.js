@@ -1980,7 +1980,7 @@
                             var dj = API.getDJ();
                             var id = dj.id;
                             var name = dj.username;
-                            var msgSend = '@' + name + ': ';
+                            var msgSend = '/me @' + name + ': ';
                             basicBot.room.queueable = false;
 
                             if (chat.message.length === cmd.length) {
