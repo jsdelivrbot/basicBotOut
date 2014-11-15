@@ -193,7 +193,7 @@
             autodisable: false,
             commandCooldown: 1,
             usercommandsEnabled: true,
-            lockskipPosition: 51,
+            lockskipPosition: 50,
             lockskipReasons: [
                 ["1", "Musica/video ofensiva ou musica/video com conteudo para maiores de 18 anos. Tente outra. "],
                 ["2", "Esta musica já foi tocada recentemente. Tente outra. "],
