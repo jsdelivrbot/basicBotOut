@@ -165,12 +165,12 @@
     var botCreatorIDs = [];
 
     var basicBot = {
-        version: "2.0.5",
+        version: "2.0.6",
         status: false,
         name: "AsfargoR BOT",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Asfargo/basicBot/master/basicBot.js",
-        cmdLink: "https://rawgit.com/Asfargo/basicBot/master/commands.md",
+        cmdLink: "Os comandos são: !commands / !voteratio @user / !dc / !emoji / !eta / !ping / !link / !jointime @user / !cookie @user",
         chatLink: "https://rawgit.com/Asfargo/basicBot/master/lang/pt.json",
         chat: null,
         loadChat: loadChat,
@@ -1408,8 +1408,8 @@
             },
 
             baCommand: {
-                command: ['commands', 'help'],
-                rank: 'user',
+                command: 'ba',
+                rank: 'mod',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -1516,8 +1516,8 @@
             },
 
             commandsCommand: {
-                command: ['Semuso', 'Semuso2'],
-                rank: 'mod',
+                command: ['commands', 'help'],
+                rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
