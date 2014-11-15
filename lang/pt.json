@@ -24,7 +24,7 @@
 
 
     "usernotfound": "/me Usuário não encontrado.",
-    "notdisconnected": "/me @%%NAME%% não tem se desconectado durante meu tempo aqui.",
+    "notdisconnected": "/me Desculpe @%%NAME%% mas @%%NAME%% não tem se desconectado durante meu tempo aqui.",
     "noposition": "/me Última posição não reconhecida. A fila de espera precisa ser atualizada pelo menos uma vez para registrar posições.",
     "toolongago": "/me @%%NAME%%'s desconectou-se a muito tempo atrás: %%TIME%%.",
     "valid": "/me @%%NAME%% desconectou-se %%TIME%% atrás e deve ter posição %%POSITION%%.",
@@ -90,7 +90,7 @@
     "facebook": "/me Curta nossa página no Facebook: %%LINK%%",
     "starterhelp": "/me Essa imagem te ajudará a usar e entender o plug.dj: %%LINK%%",
     "roulettejoin": "/me @%%NAME%% entrou na roleta! (Use !leave para sair da mesma.)",
-    "jointime": "/me [@%%NAMEFROM%%] @%%USERNAME%% esteve na sala por %%TIME%%.",
+    "jointime": "/me [@%%NAMEFROM%%] @%%USERNAME%% esteve na sala até agora por %%TIME%%.",
     "kickrank": "/me [@%%NAME%%] Você não pode kickar alguém do mesmo rank ou superior!",
     "kick": "/me [@%%NAME%%], @%%USERNAME%% você está sendo kickado da comunidade por %%TIME%% minutos.",
     "kill": "/me Desligando o BOT...",
@@ -128,7 +128,7 @@
     "notmuted": "/me [@%%NAME%%] Usuário mencionado não foi mutado.",
     "unmuterank": "/me [@%%NAME%%] Você não pode desmutar usuários do mesmo rank ou superior.",
     "commandscd": "/me [@%%NAME%%] O tempo de espera de comandos para usuários agora é %%TIME%% segundos.",
-    "voteratio": "/me [@%%NAME%%] @%%USERNAME%% ~ Você recebeu %%WOOT%% Woots e %%MEHS%% Mehs. Ratio (w/m): %%RATIO%%.",
+    "voteratio": "/me [@%%NAME%%] @%%USERNAME%% recebeu %%WOOT%% Woots e %%MEHS%% Mehs. Ratio (w/m): %%RATIO%%.",
     "website": "/me Visite nosso site: %%LINK%%",
     "youtube": "/me [%%NAME%%] Inscreva-se no nosso canal: %%LINK%%",
     "songstatistics": "/me %%ARTIST%% - %%TITLE%% recebeu %%WOOTS%%W/%%GRABS%%G/%%MEHS%%M."
