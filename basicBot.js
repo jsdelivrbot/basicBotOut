@@ -1408,7 +1408,7 @@
             },
 
             baCommand: {
-                command: 'ba',
+                command: ['commands', 'help'],
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -1516,7 +1516,7 @@
             },
 
             commandsCommand: {
-                command: ['commands', 'help'],
+                command: ['Semuso', 'Semuso2'],
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
