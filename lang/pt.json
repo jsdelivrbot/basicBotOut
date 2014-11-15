@@ -117,7 +117,7 @@
     "sessionstats": "/me [@%%NAME%%] Total woots: %%WOOTS%%, total mehs: %%MEHS%%, total grabs: %%GRABS%%.",
     "skip": "/me [%%NAME%% usou 'skip'.]",
     "madeby": "/me Este bot foi feito por %%NAME%%.",
-    "activefor": "/me Estive online por %%TIME%%.",
+    "activefor": "Estive online por %%TIME%%.",
     "swapinvalid": "/me [@%%NAME%%] Usuário inválido.",
     "swapwlonly": "/me [@%%NAME%%] Use !swap somente com usuários que estão na fila de espera.",
     "swapping": "/me Trocando posições: %%NAME1%% com %%NAME2%%.",
