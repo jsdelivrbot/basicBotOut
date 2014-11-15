@@ -165,7 +165,7 @@
     var botCreatorIDs = [];
 
     var basicBot = {
-        version: "2.0.8",
+        version: "2.1.8",
         status: false,
         name: "AsfargoR BOT",
         loggedInID: null,
