@@ -165,7 +165,7 @@
     var botCreatorIDs = [];
 
     var basicBot = {
-        version: "2.0.7",
+        version: "2.0.8",
         status: false,
         name: "AsfargoR BOT",
         loggedInID: null,
@@ -203,9 +203,9 @@
             ],
             afkpositionCheck: 15,
             afkRankCheck: "ambassador",
-            motdEnabled: false,
+            motdEnabled: true,
             motdInterval: 5,
-            motd: "Sem MOTD. Digite \"!motd (Mensagem)\" e coloque uma.",
+            motd: "Chame seus amigos e caso se desconecte e perca sua vaga na Waitlist use o comando \"!dc\" para retoma a sua posição original.",
             filterChat: false,
             etaRestriction: false,
             welcome: true,
