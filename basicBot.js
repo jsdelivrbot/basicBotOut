@@ -177,7 +177,7 @@
         retrieveSettings: retrieveSettings,
         settings: {
             botName: "AsfargoR BOT",
-            language: "portuguese",
+            language: "english",
             chatLink: "https://rawgit.com/Asfargo/basicBotOut/master/lang/en.json",
             maximumAfk: 120,
             afkRemoval: false,
