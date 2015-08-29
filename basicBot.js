@@ -216,7 +216,7 @@
             youtubeLink: null,
             website: null,
             intervalMessages: [],
-            messageInterval: 5,
+            messageInterval: 2,
             songstats: true,
             commandLiteral: "!",
             blacklists: {
@@ -2268,7 +2268,7 @@
 
             refreshCommand: {
                 command: 'refresh',
-                rank: 'manager',
+                rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -2286,7 +2286,7 @@
 
             reloadCommand: {
                 command: 'reload',
-                rank: 'bouncer',
+                rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -2356,7 +2356,7 @@
 
             rouletteCommand: {
                 command: 'roulette',
-                rank: 'mod',
+                rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
