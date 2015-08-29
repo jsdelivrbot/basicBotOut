@@ -170,7 +170,7 @@
         name: "AsfargoR BOT",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Asfargo/basicBotOut/master/basicBot.js",
-        cmdLink: "!commands (or !help) / !motd (X) / !voteratio @user / !eta / !ping / !link / !jointime @user / !cookie @user",
+        cmdLink: "!commands (or !help) / !voteratio @user / !eta / !ping / !link / !jointime @user / !cookie @user / !motd (X) / !ask or !8ball (your question).",
         chatLink: "https://rawgit.com/Asfargo/basicBotOut/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
