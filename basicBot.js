@@ -169,7 +169,7 @@
         status: false,
         name: "AsfargoR BOT",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Asfargo/basicBot/master/basicBot.js",
+        scriptLink: "https://rawgit.com/Asfargo/basicBotOut/master/basicBot.js",
         cmdLink: "!commands (ou !help) / !voteratio @user / !dc / !emoji / !eta / !ping / !link / !jointime @user / !cookie @user",
         chatLink: "https://rawgit.com/Asfargo/basicBotOut/master/lang/en.json",
         chat: null,
