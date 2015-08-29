@@ -41,7 +41,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/Asfargo/basicBot/master/lang/langIndex.json", function (json) {
+        $.get("https://rawgit.com/Asfargo/basicBotOut/master/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -171,14 +171,14 @@
         loggedInID: null,
         scriptLink: "https://rawgit.com/Asfargo/basicBot/master/basicBot.js",
         cmdLink: "!commands (ou !help) / !voteratio @user / !dc / !emoji / !eta / !ping / !link / !jointime @user / !cookie @user",
-        chatLink: "https://rawgit.com/Asfargo/basicBot/master/lang/pt.json",
+        chatLink: "https://rawgit.com/Asfargo/basicBotOut/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         settings: {
             botName: "AsfargoR BOT",
             language: "portuguese",
-            chatLink: "https://rawgit.com/Asfargo/basicBot/master/lang/pt.json",
+            chatLink: "https://rawgit.com/Asfargo/basicBotOut/master/lang/en.json",
             maximumAfk: 120,
             afkRemoval: false,
             maximumDc: 60,
@@ -204,8 +204,8 @@
             afkpositionCheck: 15,
             afkRankCheck: "ambassador",
             motdEnabled: true,
-            motdInterval: 5,
-            motd: "Chame seus amigos e caso se desconecte e perca sua vaga na Waitlist use o comando \"!dc\" para retoma a sua posição original.",
+            motdInterval: 2,
+            motd: "Hello @djs",
             filterChat: false,
             etaRestriction: false,
             welcome: true,
@@ -2096,7 +2096,7 @@
 
             motdCommand: {
                 command: 'motd',
-                rank: 'bouncer',
+                rank: 'user',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -2582,7 +2582,7 @@
 
             togglemotdCommand: {
                 command: 'togglemotd',
-                rank: 'bouncer',
+                rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -2768,7 +2768,7 @@
 
             welcomeCommand: {
                 command: 'welcome',
-                rank: 'mod',
+                rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
