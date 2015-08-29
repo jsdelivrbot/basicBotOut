@@ -191,7 +191,7 @@
             timeGuard: true,
             maximumSongLength: 6,
             autodisable: false,
-            commandCooldown: 0.1,
+            commandCooldown: 0,
             usercommandsEnabled: true,
             lockskipPosition: 50,
             lockskipReasons: [
@@ -1031,14 +1031,14 @@
                     basicBot.room.usercommand = false;
                     setTimeout(function () {
                         basicBot.room.usercommand = true;
-                    }, basicBot.settings.commandCooldown * 1000);
+                    }, basicBot.settings.commandCooldown * 10);
                 }
                 if (executed) {
                     API.moderateDeleteChat(chat.cid);
                     basicBot.room.allcommand = false;
                     setTimeout(function () {
                         basicBot.room.allcommand = true;
-                    }, 5 * 1000);
+                    }, 5 * 10);
                 }
                 return executed;
             },
