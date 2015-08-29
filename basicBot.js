@@ -1518,7 +1518,7 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                    API.sendChat('/me *cry* Are you trying kill me?' basicBot.userUtilities.lookupUserName(name));
+                    API.sendChat('/me *cry* Are you trying kill me?');
                     }
                 }
             },
