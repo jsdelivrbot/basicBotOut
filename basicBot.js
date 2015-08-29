@@ -170,7 +170,7 @@
         name: "AsfargoR BOT",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Asfargo/basicBotOut/master/basicBot.js",
-        cmdLink: "!commands (ou !help) / !voteratio @user / !dc / !emoji / !eta / !ping / !link / !jointime @user / !cookie @user",
+        cmdLink: "!commands (or !help) / !motd (X) / !voteratio @user / !eta / !ping / !link / !jointime @user / !cookie @user",
         chatLink: "https://rawgit.com/Asfargo/basicBotOut/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
@@ -2101,7 +2101,7 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                         var msg = chat.message;
-                        if (msg.length <= cmd.length + 1) return API.sendChat('/me MOTD: ' + basicBot.settings.motd);
+                        if (msg.length <= cmd.length + 1) return API.sendChat('/me ' + basicBot.settings.motd);
                         var argument = msg.substring(cmd.length + 1);
                         if (!basicBot.settings.motdEnabled) basicBot.settings.motdEnabled = !basicBot.settings.motdEnabled;
                         if (isNaN(argument)) {
