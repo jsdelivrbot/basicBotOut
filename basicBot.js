@@ -1511,7 +1511,7 @@
             
 
             newkillCommand: {
-                command: 'kill',
+                command: 'killfail',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
