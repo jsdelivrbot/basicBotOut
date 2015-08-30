@@ -2779,7 +2779,6 @@
                              indexMuted = i;
                              wasMuted = true;
                              }
-
                              }
                              if (!wasMuted) return API.sendChat(subChat(basicBot.chat.notmuted, {name: chat.un}));
                              basicBot.room.mutedUsers.splice(indexMuted);
@@ -2890,7 +2889,7 @@
                     }
                 }
             },
-            
+
             youtubeCommand: {
                 command: 'youtube',
                 rank: 'user',
@@ -2906,7 +2905,6 @@
             }
         }
     };
-   
 
     loadChat(basicBot.startup);
 }).call(this);
