@@ -2891,37 +2891,7 @@
                 }
             },
             
-            
-    			downloadCommand: {
-				command: ['download','dl'],
-				rank: 'user',
-				type: 'exact',
-				functionality: function (chat, cmd) {
-					if (this.type === 'exact' && chat.message.length !== cmd.length)
-						return void(0);
-					if (basicBot.commands.executable(this.rank, chat)) {
-						var media = API.getMedia(),
-							from = chat.un;
-
-						switch (media.format) {
-							case 1:
-								var linkToSong = "https://www.ssyoutube.com/watch?v=" + media.cid;
-								return API.sendChat(subChat(basicBot.chat.downloadytlink, {name: from, link: linkToSong}));
-							break;
-							case 2:
-								SC.get('/tracks/' + media.cid, function (sound) {
-									return API.sendChat(subChat(basicBot.chat.downloadsclink, {name: from, link: sound.permalink_url}));
-								});
-							break;
-							default:
-								return API.sendChat('Não foi possível localizar o link de download.');
-							break;
-						}
-					} else {
-						return void(0);
-					}
-				}
-			},
+  
 			allahuakbarCommand: {
 				command: ['allahuakbar','aIIahuakbar'],
 				rank: 'user',
