@@ -190,7 +190,6 @@
             maximumCycletime: 10,
             timeGuard: true,
             maximumSongLength: 6,
-            autowoot: true,
             autodisable: false,
             commandCooldown: 0,
             usercommandsEnabled: true,
@@ -784,12 +783,6 @@
                 }
             }
         },
-        
-        eventDjadvance: function (obj) {
-            if (basicBot.settings.autowoot) {
-                $("#woot").click(); // autowoot
-            }
-        
         eventDjadvance: function (obj) {
             var user = basicBot.userUtilities.lookupUser(obj.dj.id)
             for(var i = 0; i < basicBot.room.users.length; i++){
@@ -1177,9 +1170,6 @@
             basicBot.status = true;
             API.sendChat('/cap 1');
             API.setVolume(0);
-            if (basicBot.settings.autowoot) {
-                $("#woot").click();
-            }
             var emojibutton = $(".icon-emoji-on");
             if (emojibutton.length > 1) {
                 emojibutton[1].click();
