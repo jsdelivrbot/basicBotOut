@@ -205,7 +205,7 @@
             afkRankCheck: "ambassador",
             motdEnabled: true,
             motdInterval: 2,
-            motd: "Hello @djs",
+            motd: "!clearchat",
             filterChat: false,
             etaRestriction: false,
             welcome: true,
