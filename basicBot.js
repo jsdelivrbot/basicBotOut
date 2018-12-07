@@ -41,7 +41,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/Asfargo/basicBotOut/master/lang/langIndex.json", function (json) {
+        $.get("https://cdn.jsdelivr.net/gh/Asfargo/basicBotOut/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -169,16 +169,16 @@
         status: false,
         name: "AsfargoR BOT",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Asfargo/basicBotOut/master/basicBot.js",
+        scriptLink: "https://cdn.jsdelivr.net/gh/Asfargo/basicBotOut/basicBot.js",
         cmdLink: "!commands (or !help) / !voteratio @user / !eta / !ping / !link / !jointime @user / !cookie @user / !motd (X) / !gif (tags) / !ask or !8ball (your question).",
-        chatLink: "https://rawgit.com/Asfargo/basicBotOut/master/lang/en.json",
+        chatLink: "https://cdn.jsdelivr.net/gh/Asfargo/basicBotOut/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         settings: {
             botName: "AsfargoR BOT",
             language: "english",
-            chatLink: "https://rawgit.com/Asfargo/basicBotOut/master/lang/en.json",
+            chatLink: "https://cdn.jsdelivr.net/gh/Asfargo/basicBotOut/lang/en.json",
             maximumAfk: 120,
             afkRemoval: false,
             maximumDc: 60,
@@ -220,8 +220,8 @@
             songstats: true,
             commandLiteral: "!",
             blacklists: {
-                NSFW: "https://rawgit.com/Asfargo/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-                OP: "https://rawgit.com/Asfargo/basicBot-customization/master/blacklists/ExampleOPlist.json"
+                NSFW: "https://cdn.jsdelivr.net/gh/Asfargo/basicBot-customization/blacklists/ExampleNSFWlist.json",
+                OP: "https://cdn.jsdelivr.net/gh/Asfargo/basicBot-customization/blacklists/ExampleOPlist.json"
             }
         },
         room: {
